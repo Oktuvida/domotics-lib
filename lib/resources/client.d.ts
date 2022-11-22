@@ -6,7 +6,7 @@ export type ClientOptions = {
 };
 export declare class Client {
     #private;
-    constructor(domain: string, options?: ClientOptions);
+    constructor(uri: string, options?: ClientOptions);
     on(signal: Signal, listener: (message: IncomingMessage) => unknown): Socket;
     emit(signal: Signal, message: OutgoingMessage): Socket;
 }

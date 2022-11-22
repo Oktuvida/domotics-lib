@@ -1,4 +1,4 @@
-export declare const enum Endpoint {
+export declare enum Endpoint {
     ALL_LIGHTS_ARE_ON = 0,
     BOARD_LIGHTS_ARE_ON = 1,
     FRONT_LIGHTS_ARE_ON = 2,

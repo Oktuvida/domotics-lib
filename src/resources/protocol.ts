@@ -1,4 +1,4 @@
-export const enum Endpoint {
+export enum Endpoint {
   ALL_LIGHTS_ARE_ON,
   BOARD_LIGHTS_ARE_ON,
   FRONT_LIGHTS_ARE_ON,
