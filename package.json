@@ -1,0 +1,35 @@
+{
+  "name": "@domotics-app/lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rm -rf lib/* && tsc",
+    "lint": "eslint --ignore-path .gitignore --fix",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|tsx|jsx|json)\""
+  },
+  "keywords": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oktuvida/domotics-lib.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.5.3"
+  }
+}
